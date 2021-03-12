@@ -8,3 +8,4 @@ I found this task incredibly difficult and unfortunately have not created someth
 
 Below is a screenshot of the webpage.
 
+![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
