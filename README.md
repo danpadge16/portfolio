@@ -6,6 +6,10 @@ Both the CSS and HTML files have been commented to highlight what has been creat
 
 I found this task incredibly difficult and unfortunately have not created something that is the finished article.
 
-Below is a screenshot of the webpage.
+Below are screenshots of the webpage.
 
-![Alt text](/relative/path/to/1.png?raw=true "Optional Title")
+![Screenshot](1.png)
+![Screenshot](2.png)
+![Screenshot](3.png)
+
+
