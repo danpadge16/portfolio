@@ -12,4 +12,7 @@ Below are screenshots of the webpage.
 ![Screenshot](2.png)
 ![Screenshot](3.png)
 
+This is the deployed URL.
+
+https://danpadge16.github.io/portfolio/
 
