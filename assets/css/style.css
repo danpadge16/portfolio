@@ -2,7 +2,7 @@
     padding: 0px;
 }
 
-
+/*header large size, google font, centered*/
     h1 {
         top: 0;
         width: 100%;
@@ -13,13 +13,12 @@
         
     }
 
-    
+    /*created border for nav links to live in*/
     .topnav a {
         padding: 2px;
         height: 40px;
-         border: 3px solid whitesmoke;
-         margin-right: 370px;
-        float: center;
+        border: 3px solid whitesmoke;
+        margin-right: 370px;
         color: #f2f2f2;
         text-align: center;
         padding: 14px 16px;
@@ -27,7 +26,7 @@
         font-family: 'Playfair Display', serif;
         
       }
-
+      /*hover section makes border background white when cursor on it*/
       .topnav a:hover {
         background-color: #ddd;
         color: black;
@@ -43,52 +42,45 @@
         min-height: 100vh;
         background-image: linear-gradient(#111, #050505);
         --img-url: url(https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=350&h=350&fit=crop&crop=faces);
-        
-        
-    }
+         }
+    
     
     .headshot {
-        flex-shrink: 0;
+        flex-direction: row;
         margin-top: 100px;
-        height: calc(150px + 6vw);
-        width: calc(150px + 6vw);
+        height: calc(150px + 8vw);
+        width: calc(150px + 8vw);
         border: calc(8px) solid transparent;
         background-origin: border-box;
         background-clip: content-box, border-box;
-        background-size: cover;
         box-sizing: border-box;
         box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
     }
-    
+    /*altered radius to smooth square corners*/
     .headshot-1 {
         border-radius: 30%;
-        background-image: var(--img-url), linear-gradient(#f9f047, #0fd850);
+        background-image: var(--img-url), linear-gradient(#2737c7, #13da55);
     }
-    
+    /*altered radius to make circle*/
     .headshot-2 {
         border-radius: 50%;
         background-image: var(--img-url), linear-gradient(to bottom right, #ff3cac, #562b7c, #2b86c5);
     }
-    
+    /*altered radius on top left/bottom right to circular and smoothed edges top right/bottom left*/
     .headshot-3 {
         border-radius: 50% 10%;
-        background-image: var(--img-url), linear-gradient(to bottom left, #f83600, #f9d423);
+        background-image: var(--img-url), linear-gradient(to bottom left, #f83600, #f8cf03);
     }   
     
-body  {
-    background-image: linear-gradient(#111, #050505);}
+    /*small change in background colour*/
+    body  {
+        background-image: linear-gradient(#111, #050505);}
 
     h3 {
         color: whitesmoke;
     }
-
-    main {
-        display: flex;
-        margin-top: 2%;
-      }
-    
+    /*created border and installed google font, unable to center*/
     .about-me{
-        
     text-align: center;
     font-family: 'Playfair Display', serif;
     padding-right: 20px;
@@ -98,28 +90,34 @@ body  {
     height: 250px;
     border: 3px solid whitesmoke;
     border-radius: 10px;
-    
-    
 }    
 
-.get-in-touch {
+.get-in-touch h3{
     text-align: center;
     font-family: 'Playfair Display', serif;
     font-size: 40px;
+    text-decoration: underline;
 }
 
-.get-in-touch li {
+.get-in-touch a{
     text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    margin: 5px 550px 300px 0px;
 }
-
+/*hover section makes border background white when cursor on it*/
+.get-in-touch a:hover {
+    background-color: #ddd;
+    color: black;
+}
 
 
 .work {
     text-align: center;
     font-family: 'Playfair Display', serif;
     font-size: 40px;
-    
-}
+    padding-top: 75px;
+    }
 
 .work img {
     width: 75%;
