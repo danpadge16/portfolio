@@ -3,7 +3,7 @@
 }
 
 
-    header {
+    h1 {
         top: 0;
         width: 100%;
         color: whitesmoke;
@@ -18,6 +18,7 @@
         padding: 2px;
         height: 40px;
          border: 3px solid whitesmoke;
+         margin-right: 370px;
         float: center;
         color: #f2f2f2;
         text-align: center;
@@ -32,8 +33,8 @@
         color: black;
       }
 
-    
-    h1 {
+    h2 {
+        padding-top: 100px;
         display: flex;
         justify-content: space-around;
         align-content: center;
@@ -48,7 +49,7 @@
     
     .headshot {
         flex-shrink: 0;
-        margin: 10px;
+        margin-top: 100px;
         height: calc(150px + 6vw);
         width: calc(150px + 6vw);
         border: calc(8px) solid transparent;
@@ -77,22 +78,53 @@
 body  {
     background-image: linear-gradient(#111, #050505);}
 
-.h2 {
-    color: whitesmoke;
-}
+    h3 {
+        color: whitesmoke;
+    }
 
-.about-me, .get-in-touch, .work {
+    main {
+        display: flex;
+        margin-top: 2%;
+      }
+    
+    .about-me{
+        
     text-align: center;
-    font-size: 20px;
     font-family: 'Playfair Display', serif;
-    padding: 2px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
     width: 500px;
     height: 250px;
     border: 3px solid whitesmoke;
     border-radius: 10px;
     
+    
 }    
 
+.get-in-touch {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+}
+
+.get-in-touch li {
+    text-align: center;
+}
+
+
+
+.work {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    
+}
+
+.work img {
+    width: 75%;
+    height: 600px;
+}
 
 
  a {
