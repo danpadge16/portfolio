@@ -13,19 +13,7 @@
         
     }
 
-    /*created border for nav links to live in*/
-    .topnav a {
-        padding: 2px;
-        height: 40px;
-        border: 3px solid whitesmoke;
-        margin-right: 370px;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 14px 16px;
-        font-size: 20px;
-        font-family: 'Playfair Display', serif;
-        
-      }
+   
       /*hover section makes border background white when cursor on it*/
       .topnav a:hover {
         background-color: #ddd;
