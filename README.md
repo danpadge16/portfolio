@@ -12,7 +12,10 @@ The 3 screenshots below show the work that was done the first time i attempted t
 
 Weeks later the portfolio while having the same basic look as the first attempt has been improved significantly through new techniques such as bootstrap and also the addition of icons to create a crisper looking portfolio page.
 
-![Screenshot](4)
+![Screenshot](4.png)
+![Screenshot](5.png)
+
+
 This is the deployed URL.
 
 https://danpadge16.github.io/portfolio/
